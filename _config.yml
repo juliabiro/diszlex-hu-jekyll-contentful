@@ -1,21 +1,21 @@
-title: John Smith
-description: My Personal Blog
-author: John Smith
-logo: /hcz-jekyll-blog/static/img/avatar.png
-github: https://github.com/codeasashu
-about: Freelance developer
+title: Diszlexiás Gyermekekért Egyesület
+description: A Diszlexiás Gyermekekért Egyesület honlapja
+author: Julia Biro
+logo: 
+github: https://github.com/juliabiro/diszlex-hu-jekyll-contentful
+about: SRE at Contentful
 
-baseurl: "https://codeasashu.github.io/hcz-jekyll-blog"
-url: "https://codeasashu.github.io/hcz-jekyll-blog"
+baseurl: ""
+url: ""
 
 allowsearch: true
 
-disqus_shortname: aboutashu
-google_analytics: UA-72862926-1
+#disqus_shortname: aboutashu
+#google_analytics: UA-72862926-1
 
-share:
-  twitter_username: \#
-  fb_appid: 000000000000
+#share:
+#  twitter_username: \#
+#  fb_appid: 000000000000
 
 
 enableTags: true
@@ -30,19 +30,19 @@ gems: [jekyll-paginate, jekyll-gist]
 contentful:
   spaces:
     - example: # Jekyll _data folder identifier - Required
-        space: cfexampleapi         # Required
-        access_token: b4c0n73n7fu1  # Required
+        space: 8hajarbetuor         # Required
+        access_token: 656694d8c51c62a7c6f94dd6284cc98361fda1fcfb9689b4fd0ebcf0d0796bcc  # Required
         cda_query:                  # Optional
           include: 2
           limit: 100
         all_entries: true           # Optional - Defaults to false, only grabbing the amount set on CDA Query
         all_entries_page_size: 1000 # Optional - Defaults to 1000, maximum amount of entries per CDA Request for all_entries
-        content_types:              # Optional
-          cat: MyCoolMapper
-        client_options:             # Optional
-          api_url: 'preview.contentful.com' # Defaults to 'api.contentful.com' which is Production
-          max_include_resolution_depth: 5 # Optional - Defaults to 20, maximum amount of levels to resolve includes
-        base_path: app_path         # Optional - Defaults to Current directory
-        destination: destination_in_data # Optional - Defaults to _data/contentful/spaces
-        individual_entry_files: true # Optional - Defaults to false
+        #content_types:              # Optional
+        #  cat: MyCoolMapper
+        #client_options:             # Optional
+        #  api_url: 'preview.contentful.com' # Defaults to 'api.contentful.com' which is Production
+        #  max_include_resolution_depth: 5 # Optional - Defaults to 20, maximum amount of levels to resolve includes
+        #base_path: app_path         # Optional - Defaults to Current directory
+        #destination: destination_in_data # Optional - Defaults to _data/contentful/spaces
+        #individual_entry_files: true # Optional - Defaults to false
 
