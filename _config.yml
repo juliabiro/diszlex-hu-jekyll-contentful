@@ -25,9 +25,19 @@ paginate: 20
 per_page: 20
 paginate_path: "/page:num/"
 markdown: kramdown
-gems: [jekyll-paginate, jekyll-gist]
+gems: [jekyll-paginate, jekyll-gist, jekyll-contentful]
 
 contentful:
+  preview: No
+  production_access_token: '656694d8c51c62a7c6f94dd6284cc98361fda1fcfb9689b4fd0ebcf0d0796bcc'
+  space: '8hajarbetuor'
+  content_types:
+   - "page"
+  published_locales_field: "published_languages"
+  localization:
+  - locale: en-US
+    url_prefix: ""
+    lang: "English"
   spaces:
     - diszlex_hu: # Jekyll _data folder identifier - Required
         space: 8hajarbetuor         # Required
