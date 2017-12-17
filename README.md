@@ -13,4 +13,4 @@ Jekyll-based website for diszlex.hu using Contentful
 9. [ ] migrate domain to new webiste
 
 ## jekyll theme:  HCZ Material theme
-from http://jekyllthemes.org/themes/jekyll-clean/
+https://github.com/codeasashu/hcz-jekyll-blog
