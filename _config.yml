@@ -29,7 +29,7 @@ gems: [jekyll-paginate, jekyll-gist]
 
 contentful:
   spaces:
-    - example: # Jekyll _data folder identifier - Required
+    - diszlex_hu: # Jekyll _data folder identifier - Required
         space: 8hajarbetuor         # Required
         access_token: 656694d8c51c62a7c6f94dd6284cc98361fda1fcfb9689b4fd0ebcf0d0796bcc  # Required
         cda_query:                  # Optional
