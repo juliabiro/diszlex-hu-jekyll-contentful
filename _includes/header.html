@@ -2,9 +2,9 @@
       <div class="container">
         <div class="row">
           <div class="col-md-3 col-sm-4 col-xs-12">
-            <div class="row-picture">
-              <img id="about" class="logo-img" src="{{ site.logo }}" height="75px" width="75px">
-            </div>
+            <a href="{{ site.url }}"><div class="row-picture">
+              <img id="about" class="logo-img" src="{{ sitebaseurl }}/{{ site.logo }}" height="75px" width="75px">
+            </div></a>
             <div class="row-details">
               {% include social_links.html %}
             </div>
@@ -17,7 +17,7 @@
           </div>
           <div class="col-md-9 col-sm-8 col-xs-12">
           <div class="row">
-            <h2 class="blog-title-pro {% if site.allowsearch ==  true %}col-md-6 col-sm-12 col-xs-12 {% endif %}">{{ site.title }}</h2>
+              <h2 class="blog-title-pro {% if site.allowsearch ==  true %}col-md-6 col-sm-12 col-xs-12 {% endif %}">{{ site.title }}</h2>
             {% if site.allowsearch ==  true %}
             <div class="col-md-6 col-sm-12 col-xs-12 searchcontrol" id="js-search">
               <input class="form-control" type="text" id="js-search__input" placeholder="Search">
